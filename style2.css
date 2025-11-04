@@ -1,0 +1,93 @@
+/* ======================================
+   CSS DAY 5 PRACTICE — BOX MODEL & BACKGROUNDS
+   Author: Tejanya Kumar
+   ====================================== */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Page Layout ---------- */
+body {
+    background-color: #f7fafc;
+    color: #1a202c;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #2b6cb0;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #4a5568;
+    font-size: 16px;
+}
+
+/* ---------- Box Model Example ---------- */
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #e53e3e;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ---------- Backgrounds Section ---------- */
+.bg {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Background Image --- */
+.bg-image {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=500');
+    background-size: cover;
+    background-position: center;
+}
+
+/* --- Linear Gradient --- */
+.bg-linear {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+/* --- Radial Gradient --- */
+.bg-radial {
+    background: radial-gradient(circle, #3182ce, #2b6cb0, #1a365d);
+}
+
+/* ---------- Footer ---------- */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #718096;
+    font-size: 14px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+}
